@@ -85,7 +85,7 @@ body{
     height: 100vh;
     width: 50%;
     object-fit: cover;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 /* project section */
@@ -274,7 +274,6 @@ body{
     display: block;
     margin-left: auto;
     height: 200px;
-    
 }
 
 .skill-name{
