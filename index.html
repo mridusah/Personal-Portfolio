@@ -14,27 +14,104 @@
     <!--navbar-->
     <nav class="navbar">
         <ul class="link-group">
-            <li class="link active"><a href="#">Home</a></li>
-            <li class="link"><a href="#">Projects</a></li>
-            <li class="link"><a href="#">About</a></li>
-            <li class="link"><a href="#">Skills</a></li>
-            <li class="link"><a href="#">Education</a></li>
-            <li class="link"><a href="#">Contact</a></li>
+            <li class="link active"><a href="#home">Home</a></li>
+            <li class="link"><a href="#project">Projects</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#skills">Skills</a></li>
+            <li class="link"><a href="#education">Education</a></li>
+            <li class="link"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <!--home section-->
 
-    <section class="home-section active">
+    <section class="home-section active" id="home">
         <h1 class="hero-heading">Hello, I am <br> Mridu </h1>
         <img src="images/img.png" class="home-img" alt="">
+    </section>
+
+
+    <!--about section-->
+    <section class="about-section" id="about">
+        <div class="about">
+            <div class="about-img-container">
+                <img src="images/img.png" class="about-img" alt="">
+                <a class="download-cv-btn" href="https://docs.google.com/document/d/1_7frFQPyWwFUXAfarX8xuUda3giNMIx9/edit" target="_blank">Open Resume</a>
+            </div>
+            <p class="about-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque assumenda reprehenderit molestiae fugit, culpa animi porro iste tenetur facere?</p>
+        </div>
+
+
+        <!--timeline-->
+        <div class="timeline" id="education">
+            <h1 class="heading">education</h1>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">High School</h1>
+                    <p class="card-detail">
+                        Hartmann College, ICSE Board <br>
+                        Secured 90.4%
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Intermediate</h1>
+                    <p class="card-detail">
+                        Hartmann College, ISC Board  <br>
+                        Secured 86.5%
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Graduation</h1>
+                    <p class="card-detail">
+                        SRM University <br>
+                        B.Tech, Computer Science
+                        with a cgpa of 9.2
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--skills-->
+        <div class="skill-section" id="skills">
+            <h1 class="heading">skills</h1>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="images/html.png" class=""skill-img alt="">
+                    <h1 class="skill-name">HTML</h1>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/css.png" class=""skill-img alt="">
+                    <h1 class="skill-name">CSS</h1>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/js.png" class=""skill-img alt="">
+                    <h1 class="skill-name">JS</h1>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/nodejs.png" class=""skill-img alt="">
+                    <h1 class="skill-name">NodeJs</h1>
+                </div>
+
+                <div class="skill-card">
+                    <img src="images/reactjs.png" class=""skill-img alt="">
+                    <h1 class="skill-name">ReactJS</h1>
+                </div>
+            </div>
+        </div>
     </section>
 
 
 
     <!--project section-->
 
-    <section class="project-section">
+    <section class="project-section" id="project">
         <h1 class="project-heading"> Some of my projects </h1>
         <div class="project-container">
             <div class="project-card">
@@ -83,90 +160,9 @@
     </section>
 
 
-    <!--about section-->
-    <section class="about-section">
-        <div class="about">
-            <div class="about-img-container">
-                <img src="images/img.png" class="about-img" alt="">
-                <a class="download-cv-btn" href="https://docs.google.com/document/d/1_7frFQPyWwFUXAfarX8xuUda3giNMIx9/edit">Open Resume</a>
-            </div>
-            <p class="about-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque assumenda reprehenderit molestiae fugit, culpa animi porro iste tenetur facere?</p>
-        </div>
-
-
-        <!--timeline-->
-        <div class="timeline">
-            <h1 class="heading">education</h1>
-            <div class="card">
-                <div class="card-body">
-                    <h1 class="card-title">High School</h1>
-                    <p class="card-detail">
-                        Hartmann College, ICSE Board <br>
-                        Secured 90.4%
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h1 class="card-title">Intermediate</h1>
-                    <p class="card-detail">
-                        Hartmann College, ISC Board  <br>
-                        Secured 86.5%
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h1 class="card-title">Graduation</h1>
-                    <p class="card-detail">
-                        SRM University <br>
-                        B.Tech, Computer Science
-                        with a cgpa of 9.2
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    
-        <!--skills-->
-        <div class="skill-section">
-            <h1 class="heading">skills</h1>
-            <div class="skills-container">
-                <div class="skill-card">
-                    <img src="images/html.png" class=""skill-img alt="">
-                    <h1 class="skill-name">HTML</h1>
-                </div>
-
-                <div class="skill-card">
-                    <img src="images/css.png" class=""skill-img alt="">
-                    <h1 class="skill-name">CSS</h1>
-                </div>
-
-                <div class="skill-card">
-                    <img src="images/js.png" class=""skill-img alt="">
-                    <h1 class="skill-name">JS</h1>
-                </div>
-
-                <div class="skill-card">
-                    <img src="images/nodejs.png" class=""skill-img alt="">
-                    <h1 class="skill-name">NodeJs</h1>
-                </div>
-
-                <div class="skill-card">
-                    <img src="images/reactjs.png" class=""skill-img alt="">
-                    <h1 class="skill-name">ReactJS</h1>
-                </div>
-            </div>
-        </div>
-
-
-        
-
 
     <!--contact section-->
-    <section class="contact-section">
+    <section class="contact-section" id="contact">
         <form class="contact-form">
             <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
             <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
@@ -175,7 +171,7 @@
         </form>
 
         <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5356874.467831776!2d77.54388818972767!3d11.478480408118642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1655637055038!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.313019143664!2d80.04222731399413!3d12.823038221592201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f712b82a78d9%3A0xfdb944a3aee53831!2sSRM%20Institute%20of%20Science%20and%20Technology!5e0!3m2!1sen!2sin!4v1655649342809!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
 
